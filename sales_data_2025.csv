@@ -1,0 +1,201 @@
+Date,Product,Salesperson,Amount,Customer
+2025-06-23,Epsilon Gear,Alice,396.92,Gomez LLC
+2025-08-28,Gamma Gizmo,Bob,469.86,Harmon PLC
+2025-03-01,Delta Device,Bob,735.87,Orr-Miller
+2025-04-11,Epsilon Gear,Alice,219.01,Mendez-Edwards
+2025-06-09,Alpha Widget,Diana,700.38,Rodriguez Group
+2025-07-28,Beta Gadget,Diana,825.71,"Mendez, Sparks and Williams"
+2025-06-04,Gamma Gizmo,Bob,120.53,"Smith, Lopez and Jensen"
+2025-05-23,Beta Gadget,Alice,451.62,Hernandez PLC
+2025-05-01,Epsilon Gear,Edward,614.56,Ward-Miller
+2025-07-11,Epsilon Gear,Diana,585.54,Wilson Group
+2025-06-19,Epsilon Gear,Diana,218.68,Porter PLC
+2025-08-26,Delta Device,Diana,858.03,Waters Inc
+2025-08-10,Delta Device,Edward,876.6,Macdonald-Rosales
+2025-02-15,Delta Device,Edward,631.53,"Hughes, Blackburn and Burns"
+2025-08-05,Alpha Widget,Diana,50.98,"Martinez, Thompson and Acosta"
+2025-05-02,Beta Gadget,Bob,693.33,Bryant-Davila
+2025-07-17,Epsilon Gear,Edward,693.93,"Hayes, Wolf and Black"
+2025-04-23,Gamma Gizmo,Diana,113.86,Hunter Inc
+2025-05-07,Delta Device,Edward,363.91,Chase-Thompson
+2025-02-02,Epsilon Gear,Bob,834.46,Ferguson PLC
+2025-08-01,Gamma Gizmo,Alice,333.84,Rodriguez Inc
+2025-04-07,Delta Device,Edward,871.05,"Wright, Romero and Brown"
+2025-01-23,Beta Gadget,Alice,897.63,Golden Group
+2025-01-17,Epsilon Gear,Bob,207.89,Hamilton-Hart
+2025-07-18,Gamma Gizmo,Alice,736.69,"Maynard, Hunt and Mahoney"
+2025-06-11,Epsilon Gear,Bob,187.55,Aguilar PLC
+2025-01-07,Epsilon Gear,Diana,78.17,Stone-Hoover
+2025-04-17,Gamma Gizmo,Diana,521.84,Haas-Evans
+2025-07-20,Delta Device,Edward,71.05,Martinez-Brown
+2025-02-01,Delta Device,Bob,427.2,Howard-Robinson
+2025-01-17,Beta Gadget,Bob,267.35,"Johnson, Sutton and Austin"
+2025-03-04,Beta Gadget,Bob,772.96,Bradford-Chen
+2025-07-15,Gamma Gizmo,Bob,507.65,"Jones, Cummings and Mckenzie"
+2025-07-12,Alpha Widget,Alice,302.3,Smith Ltd
+2025-04-03,Alpha Widget,Bob,522.53,"Quinn, Chang and Pitts"
+2025-08-27,Beta Gadget,Charlie,169.1,"Reyes, Frank and Lambert"
+2025-07-04,Gamma Gizmo,Alice,257.49,Rangel-Reed
+2025-07-18,Epsilon Gear,Edward,266.84,Ward and Sons
+2025-07-26,Gamma Gizmo,Bob,214.64,"Perez, Stephenson and Williams"
+2025-05-23,Gamma Gizmo,Bob,155.29,"Moreno, Price and Phillips"
+2025-02-26,Gamma Gizmo,Diana,258.14,Alvarado-Johnson
+2025-08-11,Delta Device,Edward,752.5,Mendez Inc
+2025-02-12,Epsilon Gear,Bob,55.19,Lopez Group
+2025-02-05,Delta Device,Edward,442.77,Frey-Baldwin
+2025-05-29,Delta Device,Diana,398.96,Cherry Inc
+2025-06-15,Gamma Gizmo,Diana,448.98,Baker Group
+2025-08-16,Epsilon Gear,Charlie,481.71,"Hernandez, Dean and Martinez"
+2025-02-23,Gamma Gizmo,Bob,454.77,"Ferguson, Miller and Brown"
+2025-04-29,Epsilon Gear,Charlie,866.62,Walters Group
+2025-02-20,Gamma Gizmo,Diana,637.53,"Jones, Morales and Wood"
+2025-02-06,Gamma Gizmo,Bob,533.64,Gilbert PLC
+2025-02-08,Gamma Gizmo,Edward,460.4,"Davis, Harper and Beck"
+2025-02-12,Alpha Widget,Charlie,699.03,"Stout, Hughes and Hartman"
+2025-02-14,Alpha Widget,Diana,251.82,Green-Franklin
+2025-06-06,Beta Gadget,Charlie,979.77,"Nash, Mckenzie and Thomas"
+2025-04-17,Beta Gadget,Edward,128.76,Garrett LLC
+2025-01-17,Alpha Widget,Edward,400.49,Olson LLC
+2025-05-11,Gamma Gizmo,Edward,850.49,"Vazquez, Nguyen and Villanueva"
+2025-03-31,Delta Device,Edward,308.12,Parker PLC
+2025-08-26,Beta Gadget,Charlie,117.4,"Guzman, Stark and Pierce"
+2025-06-11,Gamma Gizmo,Edward,702.95,Nunez and Sons
+2025-06-27,Alpha Widget,Edward,147.03,Larson-Wright
+2025-03-09,Beta Gadget,Diana,521.81,Morris-Larson
+2025-05-01,Delta Device,Bob,167.22,"Mendez, Kelley and Ramos"
+2025-01-26,Beta Gadget,Alice,734.53,Roberts Inc
+2025-07-20,Alpha Widget,Bob,967.76,Berry LLC
+2025-06-02,Delta Device,Charlie,210.98,Strong PLC
+2025-08-28,Delta Device,Charlie,947.24,Brown LLC
+2025-02-05,Beta Gadget,Edward,204.57,Rice Group
+2025-04-04,Beta Gadget,Alice,850.02,Gaines-Brown
+2025-06-16,Gamma Gizmo,Charlie,459.15,Holmes-Ali
+2025-05-27,Delta Device,Charlie,466.29,Kirk-Harrison
+2025-04-13,Gamma Gizmo,Diana,264.07,"Norman, Brooks and Edwards"
+2025-06-05,Gamma Gizmo,Bob,844.41,Smith Group
+2025-02-13,Beta Gadget,Charlie,168.6,Williams-Solomon
+2025-02-20,Delta Device,Diana,123.26,"Schultz, Barron and Thompson"
+2025-06-04,Delta Device,Edward,57.64,Evans-Gardner
+2025-07-30,Beta Gadget,Bob,691.77,"Beck, Jordan and Johns"
+2025-06-17,Delta Device,Alice,896.06,"Moon, Johnston and Vargas"
+2025-08-29,Beta Gadget,Charlie,375.54,"Perez, York and Chavez"
+2025-05-21,Delta Device,Bob,520.06,"Liu, Fuller and Mccarthy"
+2025-05-29,Beta Gadget,Alice,946.42,Davis Ltd
+2025-04-11,Gamma Gizmo,Edward,306.45,Cooke-Gomez
+2025-05-27,Beta Gadget,Diana,326.97,Lewis Group
+2025-04-13,Alpha Widget,Alice,974.47,"Downs, Walters and Tapia"
+2025-01-06,Epsilon Gear,Edward,575.43,"Scott, Rose and Mccullough"
+2025-08-17,Epsilon Gear,Diana,287.89,Steele LLC
+2025-01-07,Delta Device,Edward,876.56,Cobb-Smith
+2025-01-29,Epsilon Gear,Charlie,946.1,David-Matthews
+2025-04-04,Delta Device,Edward,583.57,"Cantrell, Griffin and Rose"
+2025-07-02,Delta Device,Alice,852.4,Gonzalez-Lopez
+2025-03-12,Beta Gadget,Charlie,576.4,"Jones, Savage and Hall"
+2025-08-22,Epsilon Gear,Charlie,236.34,Duncan LLC
+2025-07-13,Beta Gadget,Bob,310.79,"Robbins, Donaldson and Esparza"
+2025-02-16,Epsilon Gear,Charlie,385.53,Weaver-Tate
+2025-01-01,Delta Device,Alice,321.16,Williams LLC
+2025-07-02,Beta Gadget,Edward,427.79,"Hunter, Howard and Anderson"
+2025-08-13,Beta Gadget,Edward,97.84,Avery Group
+2025-05-01,Gamma Gizmo,Alice,333.03,Jones Inc
+2025-06-17,Alpha Widget,Alice,357.18,"Steele, Thompson and Odom"
+2025-03-02,Alpha Widget,Edward,936.87,Clark-Hughes
+2025-02-02,Gamma Gizmo,Edward,735.12,Davis Ltd
+2025-04-03,Delta Device,Edward,215.94,Richardson and Sons
+2025-06-11,Epsilon Gear,Bob,564.44,"Roach, Ward and Perez"
+2025-05-27,Alpha Widget,Edward,175.01,Stewart Ltd
+2025-08-04,Delta Device,Bob,226.82,Lara-Hood
+2025-04-29,Alpha Widget,Bob,275.53,Dalton-Pratt
+2025-03-10,Delta Device,Charlie,329.25,Hill LLC
+2025-01-13,Gamma Gizmo,Bob,717.58,"Noble, Velazquez and Ryan"
+2025-05-22,Beta Gadget,Diana,766.03,"Snow, Wilcox and Davis"
+2025-08-20,Delta Device,Diana,336.96,Oliver and Sons
+2025-08-24,Gamma Gizmo,Diana,977.54,Hood LLC
+2025-02-20,Beta Gadget,Alice,956.36,Richard-Zimmerman
+2025-06-15,Gamma Gizmo,Diana,678.9,"Thomas, Stewart and Moody"
+2025-02-26,Alpha Widget,Charlie,430.39,Patterson Ltd
+2025-08-28,Gamma Gizmo,Edward,825.23,Kane Group
+2025-06-13,Alpha Widget,Bob,364.98,Patrick Group
+2025-05-23,Alpha Widget,Edward,631.71,Myers LLC
+2025-07-01,Gamma Gizmo,Diana,594.52,Shannon-Caldwell
+2025-02-15,Gamma Gizmo,Bob,56.9,Rivera-Becker
+2025-03-18,Epsilon Gear,Diana,97.42,Brown-Peterson
+2025-05-16,Epsilon Gear,Edward,61.93,Smith Group
+2025-04-15,Epsilon Gear,Bob,712.41,Christian Group
+2025-06-15,Epsilon Gear,Diana,469.58,Martin-Stewart
+2025-06-21,Alpha Widget,Alice,785.55,Wiggins PLC
+2025-04-23,Delta Device,Alice,223.62,"Richards, Schaefer and Williams"
+2025-01-25,Beta Gadget,Diana,768.19,Wiley PLC
+2025-07-20,Alpha Widget,Bob,403.1,"Barker, Ponce and Lambert"
+2025-03-23,Epsilon Gear,Alice,313.38,Turner-Mercado
+2025-04-01,Beta Gadget,Alice,98.14,Hudson and Sons
+2025-03-09,Delta Device,Bob,638.95,Allen-Barron
+2025-03-25,Beta Gadget,Edward,56.64,"Thompson, Kelly and Cruz"
+2025-04-15,Delta Device,Edward,186.21,Stephens PLC
+2025-08-24,Epsilon Gear,Charlie,512.27,"Davenport, Davis and Bailey"
+2025-01-12,Delta Device,Bob,884.09,Mccormick Inc
+2025-08-14,Beta Gadget,Alice,635.37,Maxwell-Rivera
+2025-03-09,Beta Gadget,Edward,585.37,Poole Inc
+2025-06-23,Alpha Widget,Edward,767.33,Richards-Richardson
+2025-05-22,Epsilon Gear,Diana,827.89,"Cherry, Moore and Sanchez"
+2025-06-01,Epsilon Gear,Diana,620.2,Kent LLC
+2025-02-10,Gamma Gizmo,Alice,747.32,"Cooper, Pearson and Martin"
+2025-02-06,Gamma Gizmo,Edward,217.29,Brown-Washington
+2025-05-25,Epsilon Gear,Diana,333.02,"Ball, Scott and Stevens"
+2025-07-11,Epsilon Gear,Charlie,830.48,Morales-Hess
+2025-08-06,Alpha Widget,Alice,994.71,Jackson LLC
+2025-01-12,Delta Device,Bob,574.39,Lewis Inc
+2025-01-22,Epsilon Gear,Edward,584.47,Baldwin and Sons
+2025-05-16,Epsilon Gear,Alice,785.93,White-Rogers
+2025-05-29,Gamma Gizmo,Charlie,190.06,Daniel PLC
+2025-06-26,Alpha Widget,Edward,711.49,Le Inc
+2025-03-21,Epsilon Gear,Edward,812.95,Stevens PLC
+2025-07-21,Beta Gadget,Alice,447.31,Odom-Scott
+2025-03-14,Gamma Gizmo,Alice,362.88,Sutton and Sons
+2025-03-14,Gamma Gizmo,Edward,197.32,Myers-Burns
+2025-04-21,Delta Device,Alice,545.11,Edwards-Ellis
+2025-02-04,Gamma Gizmo,Alice,915.92,Riley Group
+2025-03-16,Epsilon Gear,Edward,815.03,Anderson PLC
+2025-04-08,Beta Gadget,Edward,701.29,"Wilson, James and Hanson"
+2025-03-19,Alpha Widget,Bob,971.26,"Wright, Riley and Thompson"
+2025-01-22,Alpha Widget,Edward,369.85,"Mcdonald, Morales and Myers"
+2025-07-13,Gamma Gizmo,Charlie,269.64,Nichols-Nguyen
+2025-04-08,Beta Gadget,Diana,563.38,Shaw-Cooper
+2025-08-29,Gamma Gizmo,Edward,303.34,"Campbell, Stewart and Walker"
+2025-07-08,Delta Device,Diana,826.96,Hernandez LLC
+2025-01-01,Epsilon Gear,Bob,649.95,"Allen, Kennedy and Christensen"
+2025-07-16,Alpha Widget,Charlie,327.44,Oneill PLC
+2025-07-22,Delta Device,Diana,731.35,Jackson Group
+2025-05-22,Beta Gadget,Edward,495.04,Martinez PLC
+2025-06-30,Epsilon Gear,Charlie,62.84,Weber-Thomas
+2025-01-10,Beta Gadget,Diana,127.56,Mcgrath-Dickerson
+2025-02-28,Epsilon Gear,Diana,462.36,Harris-Rich
+2025-01-22,Beta Gadget,Charlie,510.35,"Schmidt, Miller and Foster"
+2025-08-18,Epsilon Gear,Alice,904.36,Todd-Jacobs
+2025-04-14,Beta Gadget,Bob,245.51,Freeman Group
+2025-06-01,Gamma Gizmo,Diana,933.56,Suarez-Paul
+2025-05-18,Delta Device,Diana,848.47,Duncan-Callahan
+2025-02-18,Gamma Gizmo,Bob,211.99,Ramos PLC
+2025-03-14,Gamma Gizmo,Diana,818.83,Barnes-Chapman
+2025-05-11,Epsilon Gear,Diana,440.4,"Alvarez, Nicholson and Smith"
+2025-05-13,Epsilon Gear,Alice,513.28,Lang-Fernandez
+2025-05-11,Beta Gadget,Charlie,961.02,"Taylor, Davis and Holmes"
+2025-02-06,Delta Device,Alice,347.43,Jimenez-Villanueva
+2025-04-28,Alpha Widget,Edward,821.88,Pratt-Brown
+2025-03-13,Epsilon Gear,Edward,868.75,Humphrey-Christian
+2025-03-16,Beta Gadget,Alice,50.94,Payne Group
+2025-02-12,Beta Gadget,Charlie,584.12,"Bennett, Torres and Ray"
+2025-04-25,Epsilon Gear,Diana,372.11,Mckay-Meadows
+2025-01-02,Gamma Gizmo,Bob,236.79,Brown Ltd
+2025-06-24,Delta Device,Alice,764.23,"Beard, Perez and Pierce"
+2025-03-06,Beta Gadget,Edward,821.14,Thomas-Ramos
+2025-05-02,Delta Device,Charlie,240.75,Smith Ltd
+2025-01-16,Gamma Gizmo,Edward,263.28,Miller Ltd
+2025-05-20,Gamma Gizmo,Edward,326.5,Byrd PLC
+2025-07-06,Gamma Gizmo,Alice,878.02,"Ewing, Thomas and Fuller"
+2025-07-18,Beta Gadget,Edward,634.19,Anderson LLC
+2025-07-13,Epsilon Gear,Alice,213.55,King and Sons
+2025-06-16,Delta Device,Edward,355.13,Brown-Stewart
+2025-08-11,Alpha Widget,Bob,725.3,Walker-Adams
+2025-06-11,Delta Device,Edward,790.82,"Nguyen, Cantu and Tran"
+2025-07-10,Beta Gadget,Alice,51.06,"Ortiz, Stewart and Beard"
