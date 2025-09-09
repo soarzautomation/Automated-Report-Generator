@@ -62,7 +62,7 @@ def create_visuals(report_data, output_folder):
     print("✅ Visuals created successfully.")
     return {'monthly_chart': monthly_sales_chart_path, 'salespeople_chart': top_sales_chart_path}
 
-# --- 4. PDF Generation ---
+# --- 4. PDF Generation (Revised for Professional Formatting) ---
 def create_pdf_report(report_data, chart_paths, output_folder):
     """Generates a professional PDF report with all the findings."""
     print("📄 Generating PDF report...")
@@ -71,48 +71,68 @@ def create_pdf_report(report_data, chart_paths, output_folder):
     
     c = canvas.Canvas(str(report_pdf_path), pagesize=letter)
     width, height = letter
+    margin = inch
 
     # --- Header ---
     c.setFont("Helvetica-Bold", 18)
-    c.drawString(inch, height - inch, "Monthly Sales Performance Report")
-    c.setFont("Helvetica", 12)
-    c.drawString(inch, height - 1.25 * inch, f"Generated on: {datetime.now().strftime('%Y-%m-%d')}")
-    c.line(inch, height - 1.35 * inch, width - inch, height - 1.35 * inch)
+    c.drawString(margin, height - margin, "Monthly Sales Performance Report")
+    c.setFont("Helvetica", 11)
+    c.drawString(margin, height - margin - 0.25 * inch, f"Report Generated: {datetime.now().strftime('%Y-%m-%d')}")
+    c.line(margin, height - margin - 0.4 * inch, width - margin, height - margin - 0.4 * inch)
     
-    # --- Key Metrics ---
-    c.setFont("Helvetica", 14)
-    c.drawString(inch, height - 2 * inch, "Key Metrics")
-    total_sales_text = f"Total Sales: ${report_data['total_sales']:,.2f}"
+    # --- Section 1: Key Metrics & Top Products Table ---
+    y_position = height - margin - 0.75 * inch
+    c.setFont("Helvetica-Bold", 14)
+    c.drawString(margin, y_position, "Summary & Top Products")
+    y_position -= 0.4 * inch
+
+    # Key Metric
     c.setFont("Helvetica", 12)
-    c.drawString(1.25 * inch, height - 2.25 * inch, total_sales_text)
+    total_sales_text = f"Total Sales This Period: ${report_data['total_sales']:,.2f}"
+    c.drawString(margin, y_position, total_sales_text)
+    y_position -= 0.3 * inch
 
-    # --- Charts ---
-    c.setFont("Helvetica", 14)
-    c.drawString(inch, height - 2.75 * inch, "Visual Analysis")
-    c.drawImage(str(chart_paths['monthly_chart']), inch, height - 5.25 * inch, width=width - 2*inch, height=2.25*inch, preserveAspectRatio=True)
-    c.drawImage(str(chart_paths['salespeople_chart']), inch, height - 7.75 * inch, width=width/2 - 1.25*inch, height=2.25*inch, preserveAspectRatio=True)
-
-    # --- Top Products Table ---
+    # Top Products Table
     top_products_df = report_data['top_products'].reset_index()
     top_products_df['Amount'] = top_products_df['Amount'].apply(lambda x: f"${x:,.2f}")
     table_data = [top_products_df.columns.to_list()] + top_products_df.values.tolist()
     
-    table = Table(table_data, colWidths=[2.5*inch, 1.5*inch])
+    table = Table(table_data, colWidths=[2.5 * inch, 1.25 * inch])
     table.setStyle(TableStyle([
-        ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
+        ('BACKGROUND', (0, 0), (-1, 0), colors.darkslategray),
         ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
         ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+        ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
         ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
         ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
-        ('BACKGROUND', (0, 1), (-1, -1), colors.beige),
+        ('BACKGROUND', (0, 1), (-1, -1), colors.ghostwhite),
         ('GRID', (0, 0), (-1, -1), 1, colors.black)
     ]))
     
-    c.setFont("Helvetica-Bold", 12)
-    c.drawString(width/2 + 0.5*inch, height - 5.6*inch, "Top 5 Products")
     table.wrapOn(c, width, height)
-    table.drawOn(c, width/2 + 0.5*inch, height - 7.25*inch)
+    table_height = sum(table._rowHeights)
+    # Calculate the total width of the table
+    table_width = 2.5 * inch + 1.25 * inch
+    # Calculate the centered x-coordinate
+    centered_x_position = (width - table_width) / 2
+    table.drawOn(c, centered_x_position, y_position - table_height)
+
+    # --- Section 2: Visual Analysis ---
+    y_position -= (table_height + 0.5 * inch)
+    c.setFont("Helvetica-Bold", 14)
+    c.drawString(margin, y_position, "Visual Analysis")
+    y_position -= 0.25 * inch
     
+    # Monthly Sales Chart (Full Width)
+    chart_height = 2.5 * inch
+    c.drawImage(str(chart_paths['monthly_chart']), margin, y_position - chart_height, 
+                width=width - 2 * margin, height=chart_height, preserveAspectRatio=True, anchor='n')
+    y_position -= (chart_height + 0.25 * inch)
+    
+    # Top Salespeople Chart (Full Width)
+    c.drawImage(str(chart_paths['salespeople_chart']), margin, y_position - chart_height, 
+                width=width - 2 * margin, height=chart_height, preserveAspectRatio=True, anchor='n')
+
     c.save()
     print(f"✅ PDF report saved to '{report_pdf_path}'")
 
